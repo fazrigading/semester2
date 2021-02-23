@@ -5,6 +5,7 @@ while True:
         a = int(input("Masukkan panjang sisi a : "))
         b = int(input("Masukkan panjang sisi b : "))
         c = int(input("Masukkan panjang sisi c : "))
+        assert a and b and c > 0
     except:
         print("Nilai tidak boleh ≤ 0 atau desimal.")
     else:
