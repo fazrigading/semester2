@@ -12,12 +12,6 @@ while True:
         ab = a + b
         bc = b + c
         ca = c + a
-        x = ab > c
-        y = bc > a
-        z = ca > b
-        abc = a and b < c
-        bca = b and c < a
-        cab = c and a < b
         if c == siku:
             print("Segitiga tersebut adalah siku-siku.")
         elif a == b == c:
