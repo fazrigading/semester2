@@ -7,7 +7,7 @@ while True:
         c = int(input("Masukkan panjang sisi c : "))
         assert a and b and c > 0
     except:
-        print("Nilai tidak boleh ≤ 0 atau desimal.")
+        print("\nNilai tidak boleh ≤ 0 atau desimal.")
     else:
         siku = sqrt(a**2 + b**2) 
         ab = a + b
