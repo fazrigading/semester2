@@ -1,4 +1,3 @@
-from math import sqrt
 print("Triangle Detector by Gading")
 while True:
     try:
@@ -9,7 +8,7 @@ while True:
     except:
         print("\nNilai tidak boleh ≤ 0 atau desimal.")
     else:
-        siku = sqrt(a**2 + b**2) 
+        siku = (a**2 + b**2)**0.5
         ab = a + b
         bc = b + c
         ca = c + a
